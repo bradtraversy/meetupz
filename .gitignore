@@ -17,4 +17,7 @@
 coverage
 node_modules
 npm-debug.log
-client_src
+client_src/node_modules
+client_src/build
+client/*
+!client/.gitkeep 

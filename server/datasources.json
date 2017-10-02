@@ -1,6 +1,12 @@
 {
-  "db":{
-    "url": "mongodb://brad:brad@ds157624.mlab.com:57624/meetupz",
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "meetupz-app",
+    "password": "",
+    "name": "db",
+    "user": "",
     "connector": "mongodb"
   }
 }
