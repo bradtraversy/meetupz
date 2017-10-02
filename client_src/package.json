@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "set PORT=3001 && react-scripts start",
-    "build": "react-scripts build && cp -r build/* ../client/",
+    "build": "rm -rf ../client && mkdir ../client && react-scripts build && cp -r build/* ../client/",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
