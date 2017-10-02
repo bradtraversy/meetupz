@@ -2,7 +2,7 @@
 
 You need MongoDB installed as we are using the Mongo connector for Loopback
 
-### Server Installation & Setup
+### Usage
 
 From the root folder (meetupz), install the dependencies
 
@@ -15,10 +15,13 @@ To run the server
 $ npm start
 ```
 
-You will get an error at http://localhost:3000 because the client is not yet setup, but you can view the Loopback explorer at
+App:
+http://localhost:3000
+Loopback explorer:
 http://localhost:3000/explorer
 
-### Client Installation & Setup 
+### React client_src Usage 
+This is the react source code. This is the code you edit
 
 Open a new terminal in the "client_src" folder
 
@@ -38,11 +41,9 @@ $ npm install
 $ npm start
 ```
 
-It will ask to start on a different port (3001), choose yes
+This should start on port 3001
 
-Now you have the server on 3000 and the client on 3001
-
-### Compile The Client
+### Compile React client_src
 
 From the "client_src" folder run
 
@@ -50,6 +51,4 @@ From the "client_src" folder run
 $ npm run build
 ```
 
-This will put all static assets in the Loopback "client" folder
-Now you can simply run the server and the client will display at
-http//localhost:3000
+This will put all static assets in the Loopback "client" folder and update the main app
